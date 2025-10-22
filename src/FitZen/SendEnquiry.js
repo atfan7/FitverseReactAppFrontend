@@ -48,7 +48,7 @@ const SendEnquiry = () => {
       await axios.post('https://fitversereactappbackend.onrender.com/enquiries', enquiry);
       await axios.post('https://fitversereactappbackend.onrender.com/contact', enquiry);
 
-      alert('Thanks for the details. We will get back to you shortly.');
+      alert('Email Sent.Thank You. We will get back to you shortly.');
       setEnquiry({ name: '', mobile: '', email: '', message: '' });
     } catch (err) {
       console.error(err);
