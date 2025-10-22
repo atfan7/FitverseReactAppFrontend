@@ -100,25 +100,17 @@ const AdminLogin = () => {
           />
         </form>
 
-        <div className="d-flex justify-content-between mt-3">
-          <div>
-            <NavLink
-              to="/forgetpassword"
-              className="text-dark fw-medium text-decoration-none"
-            >
-              Forget Password?
-            </NavLink>
-          </div>
+    <div className="d-flex justify-content-start mt-3">
+  <div>
+    <NavLink
+      to="/register"
+      className="text-dark fw-medium text-decoration-none"
+    >
+      Create an Account
+    </NavLink>
+  </div>
+</div>
 
-          <div>
-            <NavLink
-              to="/register"
-              className="text-dark fw-medium text-decoration-none"
-            >
-              Create an Account
-            </NavLink>
-          </div>
-        </div>
       </div>
     </div>
   );
