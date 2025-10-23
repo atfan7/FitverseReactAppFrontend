@@ -9,24 +9,16 @@ const Classes = () => {
 
   const [data,setData] = useState([])
 
-  useEffect(()=>{
-    axios.get(`https://fitversereactappbackend.onrender.com/classes`)
-    .then((res)=>{
-      
-      setData(res.data)
-      
-
-    })
-    .catch((err)=>{
-      console.log(err)
-
-    })
-  })
+ useEffect(() => {
+  axios.get(`https://fitversereactappbackend.onrender.com/classes`)
+    .then(res => setData(res.data))
+    .catch(err => console.log(err));
+}, []); 
 
 
 
   return (
-    <section id="classes" className="py-5 " style={{height:'80vh'}}>
+    <section id="classes" className="py-5 " >
       <div className="container">
         <div className="text-center mb-5">
           <h2 className="fw-bold">Our Classes</h2>
