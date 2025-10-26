@@ -3,7 +3,7 @@ import SendEnquiry from './SendEnquiry';
 
 const Contact = () => {
   return (
-    <section className="py-5 bg-light text-dark" id="contact" style={{height:'80vh'}}>
+    <section className="py-5 bg-light text-dark" id="contact" style={{height:'auto'}}>
       <div className="container">
         <div className="text-center mb-5">
           <h2 className="fw-bold">Get in Touch</h2>
