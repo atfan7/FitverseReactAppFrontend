@@ -3,15 +3,16 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer
-      className="container-fluid p-5 text-bg-dark text-center"
+      className="container-fluid p-4 text-bg-dark text-center"
       style={{
-        position: 'fixed',
+        position: 'sticky',
         bottom: 0,
         left: 0,
         width: '100%',
+        marginTop: 'auto',
       }}
     >
-      <p>&copy; Designed and Developed by Mohd Atfan</p>
+      <p className="mb-0">&copy; Designed and Developed by Mohd Atfan</p>
     </footer>
   );
 };
