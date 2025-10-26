@@ -5,7 +5,7 @@ const Footer = () => {
     <footer
       className="container-fluid p-4 text-bg-dark text-center"
       style={{
-        position: 'static',
+        position: 'sticky',
         bottom: 0,
         left: 0,
         width: '100%',
