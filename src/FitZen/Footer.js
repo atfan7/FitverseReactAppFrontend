@@ -1,13 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='container-fluid p-5 text-bg-dark text-center '
+    <footer
+      className="container-fluid p-5 text-bg-dark text-center"
+      style={{
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        width: '100%',
+      }}
     >
-        <p> &copy; Designed and Developed by Mohd Atfan</p>
-
+      <p>&copy; Designed and Developed by Mohd Atfan</p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
