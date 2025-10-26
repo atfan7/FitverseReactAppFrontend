@@ -24,7 +24,7 @@ const Trainers = () => {
 
   })
   return (
-    <section id="trainers" className="py-5 bg-light text-dark">
+    <section id="trainers" className="py-5 text-dark">
       <div className="container">
         <div className="text-center mb-5">
           <h2 className="fw-bold">Meet Our Trainers</h2>
