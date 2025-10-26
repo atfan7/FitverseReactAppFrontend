@@ -5,11 +5,11 @@ const Footer = () => {
     <footer
       className="container-fluid p-4 text-bg-dark text-center"
       style={{
-        position: 'sticky',
+        position: 'fixed',
         bottom: 0,
         left: 0,
         width: '100%',
-        marginTop: 'auto',
+        zIndex: 1000,
       }}
     >
       <p className="mb-0">&copy; Designed and Developed by Mohd Atfan</p>
