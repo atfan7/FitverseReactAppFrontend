@@ -33,7 +33,7 @@ const Schedules = () => {
 
 
   return (
-<section id="schedule" className="py-5 bg-light text-dark">
+<section id="schedule" className="py-5 text-dark">
   <div className="container">
     <div className="text-center mb-5">
       <h2 className="fw-bold text-primary"> Class Schedule</h2>
