@@ -5,7 +5,7 @@ import banner4 from './assets/banner4.jpg'
 const About = () => {
   return (
 
-<section id="about" class="py-5 bg-light text-dark " style={{height:'80vh'}}>
+<section id="about" class="py-5 bg-light text-dark " style={{height:'110vh'}}>
   <div class="container">
     <div class="row">
       
